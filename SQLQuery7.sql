@@ -1,0 +1,3 @@
+ALTER TABLE Demographics 
+ADD CONSTRAINT FK_CustDemoID FOREIGN KEY(CustDemoID)
+REFERENCES Customers(CustomerID)
